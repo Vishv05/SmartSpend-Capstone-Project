@@ -93,12 +93,6 @@ python manage.py runserver
 
 ---
 
-## 📸 Screenshots
-
-> Add your project screenshots here (User Dashboard, Expense Form, Admin Panel, etc.)
-
----
-
 ## 📊 Future Enhancements
 
 * 📉 Advanced Analytics with Charts

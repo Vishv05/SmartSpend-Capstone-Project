@@ -1,0 +1,3 @@
+"""
+SmartSpend Django Project Init
+"""

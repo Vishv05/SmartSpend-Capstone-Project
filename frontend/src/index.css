@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&family=Source+Serif+4:wght@400;600&display=swap");
+
+:root {
+  color-scheme: light;
+  --bg: #f4f0ea;
+  --panel: #fff8f1;
+  --ink: #1d1a18;
+  --subtle: #5b524a;
+  --accent: #db7c2d;
+  --border: #e1d7cc;
+  --shadow-soft: 0 16px 40px rgba(23, 21, 18, 0.08);
+  --font-display: "Space Grotesk", "Trebuchet MS", sans-serif;
+  --font-body: "Source Serif 4", "Georgia", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: radial-gradient(circle at 20% 10%, #f7e8d4, transparent 45%),
+    radial-gradient(circle at 80% 0%, #e2f0ef, transparent 35%),
+    var(--bg);
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}

@@ -1,0 +1,46 @@
+# SmartSpend Backend Dependencies
+# Phase 1 - Essential packages for development
+
+# Core Framework
+Django==4.2.9
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+
+# Database
+psycopg2-binary==2.9.9  # PostgreSQL adapter (use MySQL connector if using MySQL)
+
+# Authentication & Security
+djangorestframework-simplejwt==5.3.1
+django-environ==0.11.2
+
+# Data Analytics
+pandas==2.1.4
+numpy==1.26.3
+scipy==1.11.4
+scikit-learn==1.8.0
+
+# Data Visualization (for analytics endpoints)
+matplotlib==3.8.2
+seaborn==0.13.1
+
+# File Handling & OCR (Phase 2)
+Pillow==10.2.0
+# pytesseract==0.3.10  # Uncomment for OCR in Phase 2
+
+# API Documentation
+drf-yasg==1.21.7  # Swagger/OpenAPI documentation
+
+# ASGI server
+daphne==4.1.2
+
+# Testing
+pytest==7.4.3
+pytest-django==4.7.0
+
+# Code Quality
+pylint==3.0.3
+black==23.12.1
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
